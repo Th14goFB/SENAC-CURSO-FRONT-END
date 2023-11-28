@@ -1,0 +1,263 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#cd7f2d;
+}
+
+header{
+	background-color:#fffaf4;
+	width: 101%;
+}
+
+.logotipo {
+	display:block;
+	width:50%;
+}
+
+.menu-principal{
+	margin-top: 3.3rem;
+	margin-left: 8rem;
+	margin-bottom:3rem;
+}
+
+.menu-logo-nav{
+	display:flex;
+}
+
+.lista-nav{
+	list-style:none;
+	display:flex;
+}
+
+.item-list-nav{
+	margin-right:2rem;
+}
+
+.item-list-nav a{
+	text-decoration:none;
+	padding:20px;
+	color:#ffffff;
+	background-color:#97532a;
+	font-family: 'Kanit', sans-serif;
+	border-radius: 0.8em;
+}
+
+.item-list-nav a:hover{
+	background-color:#5d2f0a;
+	transition:0.6s;
+}
+
+#testeira{
+	width:100%;
+	height:300px;
+	display:table;
+	background-color:#7c5e39;
+	margin-top:2rem;
+}
+
+.menu-secundario{
+	padding:2rem;
+	background-color:#914a10;
+	width:100%;
+	padding-left:0;
+}
+
+.menu-secundario ul li{
+	list-style:none;
+	padding:1.5rem;
+	border-radius:1rem;
+	background-color:#5d2f0a;
+	font-family: 'Kanit', sans-serif;
+}
+
+.menu-secundario ul li:hover{
+	background-color:#341d08;
+	transition:0.6s;
+}
+
+.menu-secundario ul li a{
+	text-decoration:none;
+	padding:3rem;
+	color:#ffffff;
+}
+
+.lista-menu{
+	display:flex;
+	justify-content:space-around;
+	padding-right:2rem;
+}
+
+.elemento-lista{
+	text-decoration:none;
+	list-style-type:none;
+	color: #fff;
+  	padding: 20px;
+  	font-family: 'Kanit', sans-serif;
+	border-radius:1rem;
+}
+
+.elemento-lista:hover{
+	background-color:#8b4513;
+	transition:0.5s;
+}
+
+#testeira img {
+	display:block;
+	width:50%;
+	height:100%;
+	margin:35px auto 35px auto;
+	border-radius:20px;
+}
+
+#banho-tosa-saude {
+	display:inline;
+}
+
+.sobre{
+	font-family:'Kanit', sans-serif;
+	margin-top:2em;
+	margin-bottom:2em;
+	padding:5rem;
+	background-color:#F4A460;
+	width:93%;
+	
+	background-image:url("IMG/Dog-background.png");
+	background-size:20% auto;
+	background-repeat:no-repeat;
+	height:14rem;
+}
+
+.sobre-texto-imagem{
+	display:flex;
+	justify-content:space-around;
+}
+
+.titulo-sobre{
+	text-align:center;
+	font-size:30px;
+	font-family: 'Kanit', sans-serif;
+}
+
+.texto-sobre-nos{
+	font-family: 'Kanit', sans-serif;
+}
+
+.texto-beneficio{
+	background-color:#F4A460;
+	border-radius:30px;
+	padding:20px;
+	height:10rem;
+	width:11%;
+	font-family: 'Kanit', sans-serif;
+}
+
+.img-span{
+	width:50%;
+	height:50%;
+	margin-bottom:2rem;
+}
+
+.texto-sobre{
+	text-align:center;
+	font-size:20px;
+	font-family: 'Kanit', sans-serif;
+}
+
+.conjunto-servicos{
+	width:101%;
+	display:grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	background-color:#c59861;
+	padding-top:5em;
+	justify-content:center;
+}
+
+.banho-tosa-saude{
+	padding:20px;
+	font-size:30px;
+	text-align:center;
+	font-family: 'Kanit', sans-serif;
+	background-color:#DEB887;
+	margin-bottom:6rem;
+	padding-top:5rem;
+}
+
+.imagem{
+	width:50%;
+	height:60%;
+	margin-top:2rem;
+	border-radius:12rem;
+}
+
+.banho-tosa-saude img{
+	width:55%;
+	height:60%;
+	margin:0px auto 0px auto;
+}
+
+.texto-banho-tosa-saude {
+	float:left;
+	width:100%;
+	font-size:30px;
+}
+
+footer{
+	width:100%;
+	background-color:#cd7f2d;
+	padding:40px, 40px, 40px, 40px;
+	
+}
+
+.GIF{
+	margin-top:40px;
+	margin-left:40px;
+	margin-bottom:40px;
+	padding:10px;
+	width:40%;
+}
+
+footer{
+	float:left;
+	width:101%;
+	padding-top:40px;
+}
+
+footer h2{
+	float: left;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    margin-left: 4rem;
+}
+
+.footer{
+	display:flex;
+	background-color:#F4A460;
+}
+
+.Footer-Text {
+	text-align: center;
+	font-size: 30px;
+	font-family:'Kanit', sans-serif;
+	color:#fffaf4;
+}
+
+.Footer-contatos{
+	font-size:20px;
+	margin-left:10px;
+	font-family: 'Kanit', sans-serif;
+	display:flex;
+	flex-direction:column;
+	margin-left:5em;
+	
+	float:left;
+	margin-top:2rem;
+	margin-bottom:5rem;
+	margin-right:5rem;
+}
+
+
+.container-footer-text{
+	padding:5px;
+	background-color:#7c5e39;
+		
+}
